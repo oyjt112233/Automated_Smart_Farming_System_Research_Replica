@@ -128,6 +128,7 @@ ThingSpeak Dashboard
 ![Output](Dashboard.PNG)
 
 > The working video of the prototype and dashboard is attached in the attachments.
+> ![Click here to download/view](Smart_Farming_Monitor.mp4)
 
 ---
 
@@ -181,6 +182,13 @@ All modifications, additional code, and documentation created as part of this pr
 - Develop a mobile app dashboard  
 - Add quadcopter surveillance (Only a Proteus simulation was conducted based on the original paper)
 - Add agribot integration  
+
+---
+
+## 🛠 Tools & Software Used
+- Arduino IDE
+- Proteus 8 Professional
+- ThingSpeak Dashboard
 
 ---
 
