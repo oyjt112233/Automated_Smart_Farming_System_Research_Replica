@@ -2,7 +2,7 @@
 
 ioT-based Automated Smart Farming System: Replication and Enhancement of an existing research paper.
 
-> ioT-based automated smart farming system: replication and enhancement of an existing research paper, implemented as part of our university Mini Research Project, completed in 2025.
+> ioT-based automated smart farming system: replication and enhancement of an existing research paper, implemented as part of our university Mini Research Project, completed in 2024.
 > 
 > Tasks of that project includes selecting a quality research paper, understand it, reproduce its results, and present your work at the end of the semester.
 
