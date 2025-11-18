@@ -158,31 +158,6 @@ All additional code, documentation, and diagrams created by **me** may be licens
 
 ---
 
-# 📘 **Academic Purpose**
-
-This project is created *solely for educational and research demonstration*, as required by:
-
-**EN5903 – Mini Research Project  
-PG Dip./M.Sc. in Electronics & Automation, Semester 2**
-
-It:
-- Reproduces the results in the selected research paper  
-- Demonstrates deep understanding  
-- Adds practical enhancements  
-- Documents circuits, code, and implementation details  
-
----
-
-# 🚀 **How to Run**
-1. Install Arduino IDE  
-2. Upload `/code/main.ino` to Arduino Mega  
-3. Configure ESP8266 Wi-Fi credentials  
-4. Power the sensors and modules  
-5. Monitor IoT dashboard for real-time data  
-6. Test automation triggers (pump, motor, buzzer)
-
----
-
 # 🌱 **Future Improvements**
 - Add soil pH monitoring  
 - Add automatic fertilizer dosing  
@@ -193,8 +168,8 @@ It:
 ---
 
 # 🙌 **Acknowledgements**
-- **Mobasshir Mahbub (2019)** – Original Author  
-- **University Supervisors – ENTC Department**  
+- Original Author: **Mobasshir Mahbub (2019)**
+- My Supervisor: Dr. Samiru Gayan – ENTC Department - University  of Moratuwa
 
 ---
 
