@@ -107,7 +107,7 @@ All code is included as an attachment.
 
 ![Code](Code.JPG)
 
-### Notes:
+Notes:
 - This project contains **modified code** based on the original MIT-licensed code by **Mobasshir Mahbub**.  
 - All modifications and enhancements are clearly documented.  
 - Communication between Arduino Mega and ESP8266 is fully implemented.
