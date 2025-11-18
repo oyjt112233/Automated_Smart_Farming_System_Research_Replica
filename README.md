@@ -167,6 +167,13 @@ All additional code, documentation, and diagrams created by **me** may be licens
 
 ---
 
+# 📚 References
+
+1. Mobasshir Mahbub, "IoT-Based Automated Smart Farming System," 2019.  
+   [Link to the Original Paper]([https://example.com/original-paper](https://www.sciencedirect.com/science/article/abs/pii/S2542660520300044))  
+
+---
+
 # 🙌 **Acknowledgements**
 - Original Author: **Mobasshir Mahbub (2019)**
 - My Supervisor: Dr. Samiru Gayan – ENTC Department - University  of Moratuwa
