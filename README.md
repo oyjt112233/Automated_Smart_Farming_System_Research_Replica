@@ -17,11 +17,26 @@ This repository includes my rework, improvements, circuit implementation, and io
 
 ---
 
-# 📌 **About the Original Research Paper**
+## 📌 Overview
 
-The selected research paper presents a complete **IoT-based Automated Smart Farming System**, addressing smart agriculture challenges such as real-time monitoring, automation, and efficient resource use.
+This project implements a practical and enhanced ioT-based smart farming system capable of:
+- Environmental condition sensing  
+- Automated irrigation  
+- Automated cooling  
+- Motion detection alerts  
+- Cloud-based real-time monitoring  
 
-### **Environmental Conditions Monitored**
+It combines embedded electronics, ioT communication, and automation logic.
+
+---
+
+## 📄 Original Research Paper Reference
+
+**Title:** A smart farming concept based on smart embedded electronics, internet of things and wireless sensor network
+**Author:** Mobasshir Mahbub (2019)  
+**License:** MIT License  
+
+### Parameters Monitored
 - Temperature  
 - Humidity  
 - Air Pressure  
@@ -31,83 +46,73 @@ The selected research paper presents a complete **IoT-based Automated Smart Farm
 - CO₂ Concentration  
 - Motion (PIR)  
 
-### **Problems Addressed**
-- Growing population → increasing food demand  
-- Unpredictable climate factors affecting crops  
+### Key Problems Addressed
+- Growing Population - lack of food production
+- Unpredictable Environmental Factors effect on farming
 - Traditional farming challenges (watering, fertilizing, pest control)  
 - Labour inefficiency  
 
-### **Proposed Solutions**
-- IoT-based monitoring + automated alerts  
-- Agri-copters (quadcopters) for precise spraying  
-- Automatic fertilizer dispensing based on soil pH  
-- Cloud server for logging & visualization  
-- Off-grid solar-powered system  
-- Agribots for weeding & planting tasks  
+### Solutions Proposed
+- ioT-based Automated System for monitoring the environmental conditions.
+- Sends notifications to farmers or actuators for immediate actions. (PIR, Rainfall, Temperature)
+- Agri-copters (quadcopters) are used for precise pesticide and fertilizer application.
+- Automated fertilization happen based on real-time pH data to maintain soil health.
+- Data values are visualized through a web page and previous data can be accessed using Cloud server.
+- Implementation of Off-grid solar PV systems are implemented to increase the power efficiency.
+- Agribots are designed for tasks like weeding, planting, and spraying, controlled using IoT. It reduces manual labor and increases efficiency.
 
 ---
 
-# 📌 **What I Implemented (My Work)**
+## 📌 What I Implemented (My Work)
 
-I **recreated**, **combined**, and **improved** the circuits from the paper while building a practical version of the environmental monitoring system.
+### ✔ Replicated Features
+- Integrated all major sensors used in the paper  
+- Unified transmitter and receiver circuits into a single working system  
+- Arduino Mega 2560 ↔ ESP8266 communication  
+- Real-time data upload to IoT dashboard  
 
-### ✔ **Key Implemented Features**
-- Merged **transmitter** and **receiver** circuits into a single unified system  
-- Integrated all major sensors from the paper  
-- Established communication between **Arduino Mega 2560** and **ESP8266 Wi-Fi module**  
-- Uploaded real-time data to an IoT platform  
-
-### ✔ **My Improvements / Added Features**
-- **Automatic Irrigation System** using a **5V water pump**  
-  - Activates when soil moisture is low or no rainfall is detected  
-- **Automatic Cooling System**  
-  - DC motor + propeller activates when temperature exceeds threshold  
-- **Motion Alert System** using a buzzer  
-- Redesigned & modified the **original MIT-licensed code**  
-- Improved response logic and reliability  
-- Enhanced real-time automation and sensor data handling  
+### ✔ Improvements / Enhancements
+- **Automatic Irrigation System** using a 5V water pump  
+- **Automatic Cooling System** using DC motor + propeller  
+- **Motion Detection Alert System** using PIR + buzzer  
+- Communication between Arduino Mega and ESP8266 was maintained to update data in an **ioT platform**.
 
 ---
 
-# 🔧 **Components Used**
-| Component | Function |
-|----------|----------|
+## 🔧 Components Used
+
+| Component | Description |
+|----------|-------------|
 | Arduino Mega 2560 Rev3 | Main controller |
-| ESP8266 Wi-Fi Module | Cloud / IoT communication |
-| DHT11 Sensor | Temperature & humidity |
-| PIR Motion Sensor | Motion detection |
-| MQ-135 Sensor | CO₂ / air quality |
-| BMP180 Sensor | Pressure |
-| Rainfall Sensor | Rain detection |
-| Soil Moisture Sensor | Irrigation triggers |
-| Piezo Buzzer | Motion alerts |
-| DC Motor + Propeller | Environment cooling |
-| 5V Water Pump | Automatic irrigation |
-| GSM SIM900A | SMS alerts (optional) |
-| nRF24L01+PA/LNA | Wireless communication modules |
+| ESP8266 Wi-Fi Module | IoT/cloud communication |
+| DHT11 | Temperature + humidity |
+| BMP180 | Pressure |
+| MQ-135 | CO₂ / Air quality |
+| Rain Sensor | Rainfall detection |
+| Soil Moisture Sensor | Irrigation trigger |
+| PIR Sensor | Motion detection |
+| DC Motor + Propeller | Cooling mechanism |
+| 5V Water Pump | Irrigation system |
+| Piezo Buzzer | Motion alert |
+| GSM SIM900A | SMS alerts |
+| nRF24L01+PA/LNA | Long-range wireless communication |
 
 ---
 
-# 🖼️ **Circuit Diagrams (To Be Added)**  
-*(Insert your images here)*
-
-
----
-
-# 🧪 **Simulations (To Be Added)**  
-*(Proteus / Tinkercad / Multisim files)*
-
+## 🖼️ Circuit Diagrams
+*(To be added)*
 
 ---
 
-# 🖥️ **System Architecture Diagram (To Be Added)**  
+## 🧪 Simulations
+*(To be added)*
 
 ---
 
-# 💻 **Code**
-All code is included in the `/code` directory.
+## 💻 Code
+All code is included as an attachment.
 
-### **Notes:**
+### Notes:
 - This project contains **modified code** based on the original MIT-licensed code by **Mobasshir Mahbub**.  
 - All modifications and enhancements are clearly documented.  
 - Communication between Arduino Mega and ESP8266 is fully implemented.
@@ -118,56 +123,58 @@ All code is included in the `/code` directory.
 
 ### **1. Sensor Layer**
 Collects environmental data:
-- Temperature  
-- Humidity  
-- Soil moisture  
-- Gas concentration  
+- Temperature & Humidity  
 - Pressure  
-- Rain detection  
-- Motion detection  
+- CO₂ / Air Quality  
+- Soil Moisture  
+- Rain  
+- Motion  
 
 ### **2. Processing Layer (Arduino Mega)**
-- Processes sensor values  
-- Controls pump, motor, buzzer  
+- Processes sensor data
+- Controls output devices such as pump, motor, buzzer  
 - Sends data to ESP8266  
 
 ### **3. IoT Layer (ESP8266)**
 - Connects to Wi-Fi  
 - Sends real-time data to cloud dashboard  
 
-### **4. Automation Logic**
-| Condition | Trigger |
-|----------|---------|
-| Soil moisture low | Pump ON |
-| High temperature | Cooler fan ON |
+### 4. Automation Logic Table
+
+| Condition | Action |
+|----------|--------|
+| Soil moisture low | Water Pump ON |
+| High temperature | Cooling Fan ON |
 | Motion detected | Buzzer ON |
+| No rain detected | Irrigation allowed |
 
 ---
 
 # ⚖️ **Copyright & Licensing**
 
-### **Original Work Copyright**
+### Original Work
+© Mobasshir Mahbub (2019), MIT License.  
+Original copyright notice is preserved.
 
-The original copyright notice **is preserved exactly**, as required by the MIT License.
-
-### **This Project**
-This repository is a **derivative academic reproduction** of the original work.  
-All additional code, documentation, and diagrams created by **me** may be licensed under **MIT**, unless you want a different license.
+### This Project
+This is an academic reproduction with enhancements.  
+All new code, diagrams, and documentation authored by me may be licensed under **MIT** (or a license of your choice).
 
 ---
 
 # 🌱 **Future Improvements**
-- Add soil pH monitoring  
-- Add automatic fertilizer dosing  
-- Add solar power management  
-- Add mobile app dashboard  
-- Add agri-robot / quadcopter integration  
+- Integrate soil pH monitoring (which was unable to purchase)
+- Add automatic fertilizer dispensing  
+- Integrate solar power system  
+- Develop a mobile app dashboard  
+- Add quadcopter surveillance  
+- Add agribot integration  
 
 ---
 
 # 📚 References
 
-1. Mobasshir Mahbub, "IoT-Based Automated Smart Farming System," 2019.  
+1. Mobasshir Mahbub (2019), “IoT-Based Automated Smart Farming System.”
    [Link to the Original Paper]([https://example.com/original-paper](https://www.sciencedirect.com/science/article/abs/pii/S2542660520300044))  
 
 ---
@@ -177,4 +184,3 @@ All additional code, documentation, and diagrams created by **me** may be licens
 - My Supervisor: Dr. Samiru Gayan – ENTC Department - University  of Moratuwa
 
 ---
-
