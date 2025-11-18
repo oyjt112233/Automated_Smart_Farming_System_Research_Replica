@@ -1,19 +1,13 @@
 # Automated Smart Farming System: Research-Replica
 
-> ioT-based automated smart farming system: replication and enhancement of an existing research paper, implemented as part of our university Mini Research Project, completed in 2024.
-
 > Tasks of that project includes selecting a quality research paper, understand it, reproduce its results, and present your work at the end of the semester.
 
-> The following documentation highlights the exsiting paper detalis, what I implemented and what I modified from the original design.
 
-
-### *Replication & Enhancement of an Existing Research Paper*
-
-Developed as part of the Mini Research Project (EN5903) under the guidance of Dr. Samiru Gayan at University of Moratuwa.
+Developed as part of the Mini Research Project (EN5903) under the guidance of Dr. Samiru Gayan at University of Moratuwa in 2024.
 
 The project is a **reproduction and enhancement** of the ioT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, whose code was published under the **MIT License**.  
 
-This repository includes my rework, improvements, circuit implementation, and ioT dashboard.
+This repository includes the exsiting paper detalis, what I implemented and what I modified from the original design.
 
 ---
 
@@ -175,7 +169,7 @@ All new code, diagrams, and documentation authored by me may be licensed under *
 # 📚 References
 
 1. Mobasshir Mahbub (2019), “IoT-Based Automated Smart Farming System.”
-   [Link to the Original Paper]([https://example.com/original-paper](https://www.sciencedirect.com/science/article/abs/pii/S2542660520300044))  
+[Link to the Original Paper]([https://example.com/original-paper](https://www.sciencedirect.com/science/article/abs/pii/S2542660520300044))  
 
 ---
 
