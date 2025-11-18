@@ -3,37 +3,16 @@
 ioT-based Automated Smart Farming System: Replication and Enhancement of an existing research paper.
 
 > ioT-based automated smart farming system: replication and enhancement of an existing research paper, implemented as part of our university Mini Research Project, completed in 2025.
+> 
 > Tasks of that project includes selecting a quality research paper, understand it, reproduce its results, and present your work at the end of the semester.
 
 > The following documentation highlights the exsiting paper detalis, what I implemented and what I modified from the original design.
 
-# IoT-Based Automated Smart Farming System  
-### *Replication & Enhancement of an Existing Research Paper (Mini Research Project – EN5903)*
 
-This repository contains the work completed for the **Mini Research Project (EN5903)** of the  
-PG Dip./M.Sc. in Electronics and Automation program – Semester 2.  
+### *Replication & Enhancement of an Existing Research Paper (Mini Research Project – EN5903)*
 
 The project is a **reproduction and enhancement** of the IoT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, whose code was published under the **MIT License**.  
 This repository includes my implementation, improvements, circuit designs, and IoT integrations.
-
----
-
-# 🧭 **Overview of the Mini Research Project (EN5903)**
-
-The Mini Research Project is a **mandatory 4-credit module** where each student must:
-
-- Select a **good-quality journal or conference paper** related to Electronics & Automation  
-- Read, understand, and **reproduce the results** presented in the paper  
-- Work with an assigned academic supervisor  
-- Present a **10-minute presentation**, **5-minute demonstration**, and attend **10-minute Q&A**  
-- Demonstrate deep understanding of the theory, implementation, and results  
-
-### 📝 **Evaluation Criteria**
-- **50% – Understanding the concepts** in the paper  
-- **50% – Reproducing the experimental results**  
-Academic integrity is mandatory. Any data manipulation leads to mark deduction.
-
-This repository documents my **complete implementation**, ready for demonstration and review.
 
 ---
 
