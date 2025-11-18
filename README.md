@@ -9,10 +9,13 @@ ioT-based Automated Smart Farming System: Replication and Enhancement of an exis
 > The following documentation highlights the exsiting paper detalis, what I implemented and what I modified from the original design.
 
 
-### *Replication & Enhancement of an Existing Research Paper (Mini Research Project – EN5903)*
+### *Replication & Enhancement of an Existing Research Paper*
 
-The project is a **reproduction and enhancement** of the IoT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, whose code was published under the **MIT License**.  
-This repository includes my implementation, improvements, circuit designs, and IoT integrations.
+Developed as part of the Mini Research Project (EN5903) under the guidance of Dr. Samiru Gayan at University of Moratuwa.
+
+The project is a **reproduction and enhancement** of the ioT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, whose code was published under the **MIT License**.  
+
+This repository includes my rework, improvements, circuit implementation, and ioT dashboard.
 
 ---
 
@@ -89,4 +92,109 @@ I **recreated**, **combined**, and **improved** the circuits from the paper whil
 
 # 🖼️ **Circuit Diagrams (To Be Added)**  
 *(Insert your images here)*
+
+
+---
+
+# 🧪 **Simulations (To Be Added)**  
+*(Proteus / Tinkercad / Multisim files)*
+
+
+---
+
+# 🖥️ **System Architecture Diagram (To Be Added)**  
+
+---
+
+# 💻 **Code**
+All code is included in the `/code` directory.
+
+### **Notes:**
+- This project contains **modified code** based on the original MIT-licensed code by **Mobasshir Mahbub**.  
+- All modifications and enhancements are clearly documented.  
+- Communication between Arduino Mega and ESP8266 is fully implemented.
+
+---
+
+# 📡 **How the System Works**
+
+### **1. Sensor Layer**
+Collects environmental data:
+- Temperature  
+- Humidity  
+- Soil moisture  
+- Gas concentration  
+- Pressure  
+- Rain detection  
+- Motion detection  
+
+### **2. Processing Layer (Arduino Mega)**
+- Processes sensor values  
+- Controls pump, motor, buzzer  
+- Sends data to ESP8266  
+
+### **3. IoT Layer (ESP8266)**
+- Connects to Wi-Fi  
+- Sends real-time data to cloud dashboard  
+
+### **4. Automation Logic**
+| Condition | Trigger |
+|----------|---------|
+| Soil moisture low | Pump ON |
+| High temperature | Cooler fan ON |
+| Motion detected | Buzzer ON |
+
+---
+
+# ⚖️ **Copyright & Licensing**
+
+### **Original Work Copyright**
+
+The original copyright notice **is preserved exactly**, as required by the MIT License.
+
+### **This Project**
+This repository is a **derivative academic reproduction** of the original work.  
+All additional code, documentation, and diagrams created by **me** may be licensed under **MIT**, unless you want a different license.
+
+---
+
+# 📘 **Academic Purpose**
+
+This project is created *solely for educational and research demonstration*, as required by:
+
+**EN5903 – Mini Research Project  
+PG Dip./M.Sc. in Electronics & Automation, Semester 2**
+
+It:
+- Reproduces the results in the selected research paper  
+- Demonstrates deep understanding  
+- Adds practical enhancements  
+- Documents circuits, code, and implementation details  
+
+---
+
+# 🚀 **How to Run**
+1. Install Arduino IDE  
+2. Upload `/code/main.ino` to Arduino Mega  
+3. Configure ESP8266 Wi-Fi credentials  
+4. Power the sensors and modules  
+5. Monitor IoT dashboard for real-time data  
+6. Test automation triggers (pump, motor, buzzer)
+
+---
+
+# 🌱 **Future Improvements**
+- Add soil pH monitoring  
+- Add automatic fertilizer dosing  
+- Add solar power management  
+- Add mobile app dashboard  
+- Add agri-robot / quadcopter integration  
+
+---
+
+# 🙌 **Acknowledgements**
+- **Mobasshir Mahbub (2019)** – Original Author  
+- **University Supervisors – ENTC Department**  
+
+---
 
