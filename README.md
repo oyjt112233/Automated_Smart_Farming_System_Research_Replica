@@ -90,7 +90,7 @@ This project implements a practical and enhanced ioT-based smart farming system 
 
 ---
 
-## 🧪 Simulations
+## 🧪 Proteus Simulation
 
 ![Proteus Simulation](Proteus_Simulation.jpg)
 
@@ -98,13 +98,13 @@ This project implements a practical and enhanced ioT-based smart farming system 
 
 ---
 
-## 🖼️ Prototype
+## 🖼️ Prototype (Breadboard Version & Soldered Dotboard)
 
 ![Prototype](Circuit.PNG)
 
 ---
 
-## 💻 Code
+## 💻 Arduino Program
 
 ![Code](Code.JPG)
 
@@ -122,7 +122,7 @@ Prototype Outputs
 Serial Monitor Outputs
 ![Output](Serial_Monitor.jpg)
 
-Dashboard Outputs
+ThingSpeak Dashboard
 ![Output](Dashboard.PNG)
 
 > The working video of the prototype and dashboard is attached in the attachments.
@@ -177,7 +177,7 @@ All modifications, additional code, and documentation created as part of this pr
 - Add automatic fertilizer dispensing  
 - Integrate solar power system  
 - Develop a mobile app dashboard  
-- Add quadcopter surveillance  
+- Add quadcopter surveillance (Only a Proteus simulation was conducted based on the original paper)
 - Add agribot integration  
 
 ---
