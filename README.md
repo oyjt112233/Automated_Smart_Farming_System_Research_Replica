@@ -94,7 +94,7 @@ This project implements a practical and enhanced ioT-based smart farming system 
 
 ![Proteus Simulation](Proteus_Simulation.jpg)
 
-> The simulation code was altered to match Proteus. and attached in the attachments.
+> The simulation code was altered to match Proteus and attached in the attachments.
 
 ---
 
@@ -127,7 +127,7 @@ Serial Monitor Outputs
 Dashboard Outputs
 ![Output](Dashboard.PNG)
 
-> The working video of the prototype and dashboard is attached in the attachments.”
+> The working video of the prototype and dashboard is attached in the attachments.
 
 ---
 
