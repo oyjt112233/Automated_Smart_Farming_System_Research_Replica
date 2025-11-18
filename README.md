@@ -91,12 +91,14 @@ This project implements a practical and enhanced ioT-based smart farming system 
 ---
 
 ## 🖼️ Circuit Diagrams
-*(To be added)*
+
+![Circuit Diagram](wokwi_bell.png)
 
 ---
 
 ## 🧪 Simulations
-*(To be added)*
+
+![Proteus Simulation](Proteus_Simulation.JPG)
 
 ---
 
