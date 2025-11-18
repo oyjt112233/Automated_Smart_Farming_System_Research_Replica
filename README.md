@@ -90,18 +90,18 @@ This project implements a practical and enhanced ioT-based smart farming system 
 
 ---
 
-## 🖼️ Circuit Diagrams
-
-![Circuit Diagram](wokwi_bell.png)
-
----
-
 ## 🧪 Simulations
 
 ![Proteus Simulation](Proteus_Simulation.jpg)
 
 Note:
 - The simulation code was altered to match Proteus. and attached in the attachments.
+
+---
+
+## 🖼️ Prototype
+
+![Prototype](Circuit.PNG)
 
 ---
 
@@ -114,6 +114,12 @@ Notes:
 - This project contains **modified code** based on the original MIT-licensed code by **Mobasshir Mahbub**.  
 - All modifications and enhancements are clearly documented.  
 - Communication between Arduino Mega and ESP8266 is fully implemented.
+
+---
+
+## 🖼️ Prototype & Serial Monitor Outputs
+
+![Output](Output.PNG)
 
 ---
 
