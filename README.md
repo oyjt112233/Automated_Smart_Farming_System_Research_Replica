@@ -24,7 +24,9 @@ This project implements a practical and enhanced ioT-based smart farming system 
 ## 📄 Original Research Paper Reference
 
 **Title:** A smart farming concept based on smart embedded electronics, internet of things and wireless sensor network
+
 **Author:** Mobasshir Mahbub (2019)  
+
 **License:** MIT License  
 
 ### Parameters Monitored
