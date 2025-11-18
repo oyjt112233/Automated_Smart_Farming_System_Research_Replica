@@ -110,7 +110,7 @@ All code is included as an attachment.
 
 ---
 
-# 📡 **How the System Works**
+## 📡 **How the System Works**
 
 ### **1. Sensor Layer**
 Collects environmental data:
@@ -141,7 +141,7 @@ Collects environmental data:
 
 ---
 
-# ⚖️ **Copyright & Licensing**
+## ⚖️ **Copyright & Licensing**
 
 ### Original Work
 © Mobasshir Mahbub (2019), MIT License.  
@@ -153,7 +153,7 @@ All modifications, additional code, and documentation created as part of this pr
 
 ---
 
-# 🌱 **Future Improvements**
+## 🌱 **Future Improvements**
 - Integrate soil pH monitoring (sensor not available during project period)  
 - Add automatic fertilizer dispensing  
 - Integrate solar power system  
@@ -163,14 +163,14 @@ All modifications, additional code, and documentation created as part of this pr
 
 ---
 
-# 📚 References
+## 📚 References
 
 1. Mobasshir Mahbub (2019), “IoT-Based Automated Smart Farming System.”
 [[Link to the Original Paper](https://example.com/original-paper](https://www.sciencedirect.com/science/article/abs/pii/S2542660520300044))]
 
 ---
 
-# 🙌 **Acknowledgements**
+## 🙌 **Acknowledgements**
 - Original Author: **Mobasshir Mahbub (2019)**
 - My Supervisor: Dr. Samiru Gayan, Department of Electronic & Telecommunication Engineering, University  of Moratuwa
 
