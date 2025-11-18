@@ -1,11 +1,10 @@
 # Automated Smart Farming System: Research-Replica
 
-> Tasks of that project includes selecting a quality research paper, understand it, reproduce its results, and present your work at the end of the semester.
+> This project involved selecting a quality research paper, understanding it, reproducing its results, and presenting the work at the end of the semester.
 
+Developed as part of the Mini Research Project (EN5903) under the guidance of Dr. Samiru Gayan at the **University of Moratuwa (2024)**.
 
-Developed as part of the Mini Research Project (EN5903) under the guidance of Dr. Samiru Gayan at University of Moratuwa in 2024.
-
-The project is a **reproduction and enhancement** of the ioT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, whose code was published under the **MIT License**.  
+The project is a **reproduction and enhancement** of the ioT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, originally released under the **MIT License**.  
 
 This repository includes the exsiting paper detalis, what I implemented and what I modified from the original design.
 
@@ -19,8 +18,6 @@ This project implements a practical and enhanced ioT-based smart farming system 
 - Automated cooling  
 - Motion detection alerts  
 - Cloud-based real-time monitoring  
-
-It combines embedded electronics, ioT communication, and automation logic.
 
 ---
 
@@ -41,18 +38,18 @@ It combines embedded electronics, ioT communication, and automation logic.
 - Motion (PIR)  
 
 ### Key Problems Addressed
-- Growing Population - lack of food production
-- Unpredictable Environmental Factors effect on farming
+- Growing population → lack of food production  
+- Unpredictable environmental factors affecting farming  
 - Traditional farming challenges (watering, fertilizing, pest control)  
 - Labour inefficiency  
 
 ### Solutions Proposed
 - ioT-based Automated System for monitoring the environmental conditions.
-- Sends notifications to farmers or actuators for immediate actions. (PIR, Rainfall, Temperature)
-- Agri-copters (quadcopters) are used for precise pesticide and fertilizer application.
-- Automated fertilization happen based on real-time pH data to maintain soil health.
-- Data values are visualized through a web page and previous data can be accessed using Cloud server.
-- Implementation of Off-grid solar PV systems are implemented to increase the power efficiency.
+- Alerts sent to farmers or actuators for immediate action. (PIR, Rainfall, Temperature)
+- Agri-copters (quadcopters) for precise pesticide and fertilizer application
+- Automated fertilization based on real-time soil pH data to maintain soil health
+- Cloud-based data visualization and access to historical records
+- Off-grid solar PV system for improved power efficiency 
 - Agribots are designed for tasks like weeding, planting, and spraying, controlled using IoT. It reduces manual labor and increases efficiency.
 
 ---
@@ -63,13 +60,13 @@ It combines embedded electronics, ioT communication, and automation logic.
 - Integrated all major sensors used in the paper  
 - Unified transmitter and receiver circuits into a single working system  
 - Arduino Mega 2560 ↔ ESP8266 communication  
-- Real-time data upload to IoT dashboard  
+- Real-time data upload to ioT dashboard  
 
 ### ✔ Improvements / Enhancements
 - **Automatic Irrigation System** using a 5V water pump  
-- **Automatic Cooling System** using DC motor + propeller  
+- **Automatic Cooling System** using a DC motor + propeller  
 - **Motion Detection Alert System** using PIR + buzzer  
-- Communication between Arduino Mega and ESP8266 was maintained to update data in an **ioT platform**.
+- Stable communication between Arduino Mega and ESP8266 to upload data to an **IoT platform** (Thingspeak)
 
 ---
 
@@ -78,18 +75,18 @@ It combines embedded electronics, ioT communication, and automation logic.
 | Component | Description |
 |----------|-------------|
 | Arduino Mega 2560 Rev3 | Main controller |
-| ESP8266 Wi-Fi Module | IoT/cloud communication |
-| DHT11 | Temperature + humidity |
+| ESP8266 Wi-Fi Module | ioT/cloud communication |
+| DHT11 | Temperature + Humidity |
 | BMP180 | Pressure |
-| MQ-135 | CO₂ / Air quality |
-| Rain Sensor | Rainfall detection |
-| Soil Moisture Sensor | Irrigation trigger |
-| PIR Sensor | Motion detection |
-| DC Motor + Propeller | Cooling mechanism |
-| 5V Water Pump | Irrigation system |
-| Piezo Buzzer | Motion alert |
-| GSM SIM900A | SMS alerts |
-| nRF24L01+PA/LNA | Long-range wireless communication |
+| MQ-135 | CO₂ / Air Quality |
+| Rain Sensor | Rainfall Detection |
+| Soil Moisture Sensor | Irrigation Trigger |
+| PIR Sensor | Motion Detection |
+| DC Motor + Propeller | Cooling Mechanism |
+| 5V Water Pump | Irrigation System |
+| Piezo Buzzer | Motion Alert |
+| GSM SIM900A | SMS Alerts |
+| nRF24L01+PA/LNA | Long-range Wireless Communication |
 
 ---
 
@@ -126,7 +123,7 @@ Collects environmental data:
 
 ### **2. Processing Layer (Arduino Mega)**
 - Processes sensor data
-- Controls output devices such as pump, motor, buzzer  
+- Controls output devices (pump, fan, buzzer)  
 - Sends data to ESP8266  
 
 ### **3. IoT Layer (ESP8266)**
@@ -152,12 +149,12 @@ Original copyright notice is preserved.
 
 ### This Project
 This is an academic reproduction with enhancements.  
-All new code, diagrams, and documentation authored by me may be licensed under **MIT** (or a license of your choice).
+All modifications, additional code, and documentation created as part of this project are original work by me. No additional license is applied unless stated otherwise.
 
 ---
 
 # 🌱 **Future Improvements**
-- Integrate soil pH monitoring (which was unable to purchase)
+- Integrate soil pH monitoring (sensor not available during project period)  
 - Add automatic fertilizer dispensing  
 - Integrate solar power system  
 - Develop a mobile app dashboard  
@@ -175,6 +172,6 @@ All new code, diagrams, and documentation authored by me may be licensed under *
 
 # 🙌 **Acknowledgements**
 - Original Author: **Mobasshir Mahbub (2019)**
-- My Supervisor: Dr. Samiru Gayan – ENTC Department - University  of Moratuwa
+- My Supervisor: Dr. Samiru Gayan, Department of Electronic & Telecommunication Engineering, University  of Moratuwa
 
 ---
