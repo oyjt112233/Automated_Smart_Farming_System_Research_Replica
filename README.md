@@ -100,6 +100,9 @@ This project implements a practical and enhanced ioT-based smart farming system 
 
 ![Proteus Simulation](Proteus_Simulation.jpg)
 
+Note:
+- The simulation code was altered to match Proteus. and attached in the attachments.
+
 ---
 
 ## 💻 Code
