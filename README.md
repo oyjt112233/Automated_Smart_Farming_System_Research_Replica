@@ -105,6 +105,8 @@ This project implements a practical and enhanced ioT-based smart farming system 
 ## 💻 Code
 All code is included as an attachment.
 
+![Code](Code.JPG)
+
 ### Notes:
 - This project contains **modified code** based on the original MIT-licensed code by **Mobasshir Mahbub**.  
 - All modifications and enhancements are clearly documented.  
