@@ -98,7 +98,7 @@ This project implements a practical and enhanced ioT-based smart farming system 
 
 ## 🧪 Simulations
 
-![Proteus Simulation](Proteus_Simulation.JPG)
+![Proteus Simulation](Proteus_Simulation.jpg)
 
 ---
 
